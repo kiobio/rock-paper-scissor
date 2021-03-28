@@ -1,0 +1,72 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.pictures{
+    display: flex;
+    justify-content: space-around;
+}
+#rock{
+    width: 8rem;
+    
+}
+#scissors{
+    width: 8rem;
+}
+#paper{
+    width: 8rem;
+}
+.your_choice{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+#your_choice{
+    text-align: center;
+}
+.rest{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+#computer_choice{
+    width: 10rem;
+    height: 10rem;
+}
+.result_text{
+    text-align: center;
+}
+.result{
+    text-align: center;
+    font-size: 3rem;
+}
+.rest_PC{
+    text-align: center;
+}
+.result_paper{
+    width: 10rem;
+    height: 10rem;
+    background-size:10rem;   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('./img/paper.png');
+}
+
+.result_rock{
+    width: 10rem;
+    height: 10rem;
+    background-size:10rem;   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('./img/rock-paper-scissors-296854_640.png');
+}
+.result_scissors{
+    width: 10rem;
+    height: 10rem;
+    background-size:10rem;   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('./img/scissor.png');
+}
+
